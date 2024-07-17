@@ -47,6 +47,7 @@
     .texto-secao-2 .h3-branco,
     .texto-secao-2 .h3-azul {
         font-size: 22px;
+        padding: 0 20px;
         margin-top: -100px;
     }
 
@@ -75,7 +76,7 @@
     .container-quadrados-mobile .cards-slider {
         max-height: 300px;
         max-width: 300px;
-        margin: 0 -35px 0 auto;
+        margin: 0 -40px 0 auto;
     }
 
     .cards-slider .card-esquerda,
@@ -202,6 +203,11 @@
     }
     /*FIM DA SEÇÃO 6 RESPONSIVA*/
     /*INICIO DA SEÇÃO 7 RESPONSIVA*/
+
+    .secao-7 .divisao-rasgo{
+        top: -2px;
+    }
+
     .secao-7 .titulo-perguntas{
         text-align: center;
     }

@@ -3,7 +3,7 @@
     /*INICIO SEÇÃO 1 RESPONSIVA*/
     .secao-1 {
         background-size: cover;
-        height: 70vh;
+        height: 80vh;
     }
 
     header img {
@@ -99,6 +99,11 @@
     .secao-3 .titulo span {
         text-align: center;
         padding: 0 30px;
+    }
+
+    .container-cards-secao-3{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /*FIM DA SEÇÃO 3 RESPONSIVA*/

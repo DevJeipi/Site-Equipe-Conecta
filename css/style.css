@@ -123,6 +123,11 @@ header img {
 .secao-1 button {
     margin-top: 25px;
 }
+
+.btn-mobile{
+    display: none;
+}
+
 /*FIM SEÇÃO 1*/
 
 /*INICIO SEÇÃO 2*/

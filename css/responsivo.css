@@ -14,28 +14,44 @@
     .container-esquerda {
         width: 80vw;
         margin-top: 70px;
+        margin-left: 20px;
     }
 
     .container-esquerda .promessa {
-        font-size: 25px;
+        font-size: 26px;
         width: 80vw;
     }
 
     .container-esquerda .descricao-promessa {
-        font-size: 13px;
+        font-size: 16px;
         margin-top: 25px;
     }
 
     .secao-1 button {
-        font-size: 12px;
-        padding: 10px 14px;
+        font-size: 14px;
+        padding: 14px 20px;
         width: 85vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .secao-1 .btn-padrao-1.btn-mobile{
+        display: block;
+    }
+
+    .secao-1 .btn-padrao-1{
+        display: none;
     }
 
     .secao-1 i {
-        font-size: 12px;
-    }
+        position: absolute;
+        right: 30px;
+        top: 23px;
 
+    }
     /*FIM SEÇÃO 1 RESPONSIVA*/
 
     /*INICIO SEÇÃO 2 RESPONSIVA*/
@@ -83,7 +99,6 @@
     .cards-slider .card-direita {
         margin: 0;
     }
-
     /*FIM DA SEÇÃO 2 RESPONSIVA*/
 
     /*INICIO DA SEÇÃO 3 RESPONSIVA*/

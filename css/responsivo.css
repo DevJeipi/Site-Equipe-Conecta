@@ -12,7 +12,7 @@
     }
 
     .container-esquerda {
-        width: 100vw;
+        width: 80vw;
         margin-top: 70px;
     }
 
@@ -23,7 +23,6 @@
 
     .container-esquerda .descricao-promessa {
         font-size: 13px;
-        padding-right: 50px;
         margin-top: 25px;
     }
 

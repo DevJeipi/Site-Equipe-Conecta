@@ -21,10 +21,6 @@ section {
     --font: "Montserrat", sans-serif;
 }
 
-body::-webkit-scrollbar{
-    overflow-x: hidden;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }

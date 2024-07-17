@@ -1,7 +1,7 @@
 const windowsWidth = $(window).width();
 $(document).ready(function () {
   const windowsWidth = $(window).width();
-  if (windowsWidth <= 768) {
+  if (windowsWidth <= 1024) {
     $('.cards-slider').slick({
       autoplay: true,
       pauseOnHover: true,

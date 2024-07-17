@@ -139,13 +139,14 @@
     .secao-5 {
         display: flex;
         justify-content: flex-start;
-        height: 1600px;
+        height: 1660px;
     }
 
     .secao-5 .titulo-secao-5 h1 {
         text-align: center;
         padding: 0 10px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-top: 60px;
     }
 
     .secao-5 .cards-secao-5 {

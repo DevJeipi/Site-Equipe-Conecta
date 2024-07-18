@@ -103,7 +103,7 @@
 
     /*INICIO DA SEÇÃO 3 RESPONSIVA*/
     .secao-3 {
-        height: 80vh;
+        height: 100vh;
     }
 
     .secao-3 .container-titulo {
@@ -118,6 +118,7 @@
     .container-cards-secao-3{
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 60px;
     }
 
     /*FIM DA SEÇÃO 3 RESPONSIVA*/

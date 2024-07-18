@@ -40,6 +40,8 @@
 
     .secao-1 .btn-padrao-1.btn-mobile{
         display: block;
+        display: flex;
+        justify-content: space-between;
     }
 
     .secao-1 .btn-padrao-1{
@@ -50,7 +52,6 @@
         position: absolute;
         right: 30px;
         top: 23px;
-
     }
     /*FIM SEÇÃO 1 RESPONSIVA*/
 
@@ -135,19 +136,32 @@
     }
 
     .secao-4 .imagem-secao-4 {
-        background-size: 375px;
+        background-size: 420px;
         height: 275px;
         margin-top: 0;
     }
 
-    .secao-4 button {
+    .secao-4 .btn-padrao-1{
+        display: none;
+    }
+
+    .secao-4 .btn-padrao-1.btn-mobile {
+        display: block;
         width: 80vw;
-        font-size: 10px;
+        font-size: 12px;
         margin-top: -60px;
+        position: relative;
     }
 
     .secao-4 i {
-        font-size: 10px;
+        position: absolute;
+        left: 30px;
+        top: 17px;
+        font-size: 12px;
+    }
+
+    .secao-4 .blur-azul{
+        left: -20%;
     }
 
     .secao-4 .blur-azul-2{
@@ -192,7 +206,10 @@
     }
 
     .secao-5 .blur-azul{
-        top: -2%;
+        width: 300px;
+        height: 300px;
+        top: 2%;
+        left: -7%;
     }
     /*FIM DA SEÇÃO 5 RESPONSIVA*/
 

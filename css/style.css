@@ -465,6 +465,7 @@ h2.titulo-secao-3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .secao-4 .titulo-secao-4 {
@@ -473,6 +474,7 @@ h2.titulo-secao-3 {
     justify-content: center;
     align-items: flex-end;
     height: 16vh;
+    z-index: 1;
 }
 
 .secao-4 .titulo-secao-4 h1 {
@@ -493,17 +495,33 @@ h2.titulo-secao-3 {
     width: 100vw;
     height: 84vh;
     margin-top: -140px;
+    z-index: 1;
 }
 
 .secao-4 button {
     margin-top: -40px;
 }
 
+.secao-4 .blur-azul{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 0;
+    opacity: 0.6;
+}
+
+.secao-4 .blur-azul-2{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 0;
+    opacity: 0.6;
+}
+
 /*FIM DA SEÇÃO 4*/
 
 /*INICIO DA SEÇÃO 5*/
 .secao-5 {
-    background-color: #000;
     height: auto;
     display: flex;
     justify-content: center;
@@ -517,6 +535,7 @@ h2.titulo-secao-3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .secao-5 .titulo-secao-5 h1 {
@@ -534,6 +553,7 @@ h2.titulo-secao-3 {
     grid-template-columns: 1fr 1fr;
     gap: 120px;
     padding: 30px 140px 0px 140px;
+    z-index: 1;
 }
 
 .secao-5 .cards-secao-5 .card-para-quem-e,
@@ -607,6 +627,20 @@ h2.titulo-secao-3 {
 
 .secao-5 button {
     margin-bottom: 80px;
+}
+
+.secao-5 .blur-azul{
+    position: absolute;
+    top: -10%;
+    left: -3%;
+    z-index: 0;
+}
+
+.secao-5 .blur-azul-2{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    z-index: 0;
 }
 
 .secao-5 .divisao-rasgo {

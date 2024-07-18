@@ -149,6 +149,10 @@
     .secao-4 i {
         font-size: 10px;
     }
+
+    .secao-4 .blur-azul-2{
+        display: none;
+    }
     /*FIM DA SEÇÃO 4 RESPONSIVA*/
 
     /*INICIO DA SEÇÃO 5 RESPONSIVA*/
@@ -185,6 +189,10 @@
     .secao-5 .cards-secao-5 .card-para-quem-e .box li,
     .secao-5 .cards-secao-5 .card-para-quem-nao-e .box li {
         font-size: 16px;
+    }
+
+    .secao-5 .blur-azul{
+        top: -2%;
     }
     /*FIM DA SEÇÃO 5 RESPONSIVA*/
 
@@ -258,6 +266,11 @@
         background-size: cover;
     }
 
+    .secao-1 .container-esquerda{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
     .secao-1 .brilho-preto-secao-1{
         height: 200px;
     }
@@ -275,8 +288,14 @@
 
     /*Seção 3 Responsiva*/
     .container-cards-secao-3{
-        height: 70vh;
+        height: 80vh;
         padding: 0 60px;
+    }
+
+    .container-cards-secao-3 .card-1 .titulo,
+    .container-cards-secao-3 .card-2 .titulo,
+    .container-cards-secao-3 .card-3 .titulo{
+        text-align: center;
     }
 
     .container-cards-secao-3 .card-1 .titulo span,

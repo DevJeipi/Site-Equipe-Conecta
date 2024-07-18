@@ -251,3 +251,22 @@
 
     /****FIM RESPONSIVO****/
 }
+
+@media screen and (min-width: 1366px){
+    /*Seção 1 Responsiva*/
+    .secao-1{
+        background-size: cover;
+    }
+
+
+    /*Seção 2 Responsiva*/
+    .secao-2{
+        position: relative;
+    }
+
+    .secao-2 .brilho-azul-secao-2{
+        width: 100%;
+        position: absolute;
+        top: 35%;
+    }
+}

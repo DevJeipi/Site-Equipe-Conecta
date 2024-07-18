@@ -18,11 +18,13 @@ a{
 /*CLASSES GERAIS*/
 section {
     width: 100vw;
+    height: 100vh;
     --font: "Montserrat", sans-serif;
 }
 
 body{
     overflow: none;
+    background-color: #000;
 }
 
 body::-webkit-scrollbar {
@@ -72,7 +74,6 @@ body::-webkit-scrollbar {
 .secao-1 {
     background-image: url(../imagens/background-image-conecta.png);
     background-repeat: no-repeat;
-    height: 100vh;
     position: relative;
 }
 
@@ -502,7 +503,6 @@ h2.titulo-secao-3 {
 .secao-4 button {
     margin-top: -40px;
 }
-
 /*FIM DA SEÇÃO 4*/
 
 /*INICIO DA SEÇÃO 5*/
@@ -577,7 +577,7 @@ h2.titulo-secao-3 {
 .secao-5 .cards-secao-5 .card-para-quem-e .box ul,
 .secao-5 .cards-secao-5 .card-para-quem-nao-e .box ul {
     display: grid;
-    grid-template-rows: 60px 80px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
     gap: 20px;
     padding-right: 20px;
 }

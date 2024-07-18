@@ -178,7 +178,7 @@
     }
 
     .secao-5 .cards-secao-5 .card-para-quem-nao-e .box ul {
-        grid-template-rows: 60px 80px 60px 80px 60px;
+        grid-template-rows: 60px 60px 60px 60px 60px;
     }
 
     .secao-5 .cards-secao-5 .card-para-quem-e .box li,

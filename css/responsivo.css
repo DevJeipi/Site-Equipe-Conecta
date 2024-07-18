@@ -258,6 +258,9 @@
         background-size: cover;
     }
 
+    .secao-1 .brilho-preto-secao-1{
+        height: 200px;
+    }
 
     /*Seção 2 Responsiva*/
     .secao-2{
@@ -268,5 +271,41 @@
         width: 100%;
         position: absolute;
         top: 35%;
+    }
+
+    /*Seção 3 Responsiva*/
+    .container-cards-secao-3{
+        height: 70vh;
+        padding: 0 60px;
+    }
+
+    .container-cards-secao-3 .card-1 .titulo span,
+    .container-cards-secao-3 .card-2 .titulo span,
+    .container-cards-secao-3 .card-3 .titulo span{
+        font-size: 20px;
+    }
+
+    .container-cards-secao-3 .card-1 p,
+    .container-cards-secao-3 .card-2 p,
+    .container-cards-secao-3 .card-3 p{
+        font-size: 24px;
+    }
+
+    /*Seção 4 Responsiva*/
+    .secao-4{
+        height: 50vh;
+    }
+
+    .secao-4 .titulo-secao-4{
+        height: auto;
+    }
+
+    .secao-4 button{
+        margin-bottom: 80px;
+    }
+
+    /*Seção 6 Responsiva*/
+    .secao-6{
+        height: 80vh;
     }
 }

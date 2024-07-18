@@ -19,12 +19,12 @@ a{
 section {
     width: 100vw;
     height: 100vh;
-    --font: "Montserrat", sans-serif;
 }
 
 body{
     overflow: none;
     background-color: #000;
+    --font: "Montserrat", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -813,18 +813,49 @@ h2.titulo-secao-3 {
 
 /*FOOTER*/
 footer {
-    height: 50px;
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #252525;
 }
 
-footer p {
-    font-family: "Montserrat", sans-serif;
-    color: #555555;
+footer .redes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px 0px 15px 20px;
 }
 
+footer .redes a{
+    color: #555555;
+    font-family: var(--font);
+    position: relative;
+}
+
+footer .redes a:hover{
+    color: #f2f2f2;
+    transition: all .2s;
+}
+
+footer .redes .e-mail{
+    margin-bottom: 3px;
+}
+
+footer .redes a span{
+    position: absolute;
+    left: 25px;
+}
+
+footer p {
+    font-family: var(--font);
+    color: #555555;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
 /*FIM DO FOOTER*/
 
 /*ANIMAÇÕES*/

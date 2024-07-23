@@ -93,7 +93,7 @@
     .container-quadrados-mobile .cards-slider {
         max-height: 300px;
         max-width: 264px;
-        margin: 0 -40px 0 auto;
+        margin: 0 0 0 auto;
     }
 
     .cards-slider .card-esquerda,

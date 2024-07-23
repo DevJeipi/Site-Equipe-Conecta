@@ -320,6 +320,10 @@ a.whatsapp-link {
 .container-quadrados-mobile {
     display: none;
 }
+
+.secao-2 .blur-azul{
+    display: none;
+}
 /*FIM SEÇÃO 2*/
 
 /*INICIO SEÇÃO 3*/

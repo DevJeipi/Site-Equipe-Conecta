@@ -58,6 +58,7 @@
     /*INICIO SEÇÃO 2 RESPONSIVA*/
     .secao-2 {
         height: 80vh;
+        position: relative;
     }
 
     .texto-secao-2 .h3-branco,
@@ -91,7 +92,7 @@
 
     .container-quadrados-mobile .cards-slider {
         max-height: 300px;
-        max-width: 300px;
+        max-width: 264px;
         margin: 0 -40px 0 auto;
     }
 
@@ -99,6 +100,12 @@
     .cards-slider .card-centro,
     .cards-slider .card-direita {
         margin: 0;
+    }
+
+    .secao-2 .blur-azul{
+        display: block;
+        position: absolute;
+        z-index: 0;
     }
     /*FIM DA SEÇÃO 2 RESPONSIVA*/
 

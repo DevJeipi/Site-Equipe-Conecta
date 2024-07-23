@@ -106,6 +106,8 @@
         display: block;
         position: absolute;
         z-index: 0;
+        width: 100%;
+        top: 8%;
     }
     /*FIM DA SEÇÃO 2 RESPONSIVA*/
 

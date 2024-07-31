@@ -854,7 +854,7 @@ footer {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #252525;
+    background-color: #161515;
 }
 
 footer .redes {
@@ -885,12 +885,21 @@ footer .redes a span {
     left: 25px;
 }
 
+footer .copyright{
+    background-color: #252525;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 footer p {
     font-family: var(--font);
     color: #555555;
     margin-left: 20px;
-    margin-bottom: 15px;
 }
+
 
 /*FIM DO FOOTER*/
 

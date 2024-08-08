@@ -904,7 +904,7 @@ footer p {
 /*Smooth Scroll*/
 .auto-show{
     animation: autoShowAnimation both;
-    animation-timeline: view(80% 5%);
+    animation-timeline: view(80% 0%);
 }
 /**/
 

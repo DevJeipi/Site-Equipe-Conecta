@@ -12,6 +12,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 /*FIM RESET CSS*/
 
 /*CLASSES GERAIS*/
@@ -321,9 +322,10 @@ a.whatsapp-link {
     display: none;
 }
 
-.secao-2 .blur-azul{
+.secao-2 .blur-azul {
     display: none;
 }
+
 /*FIM SEÇÃO 2*/
 
 /*INICIO SEÇÃO 3*/
@@ -364,6 +366,7 @@ h2.titulo-secao-3 {
     padding: 0 10px 0 24px;
     margin-bottom: 24px;
 }
+
 /**/
 
 /*CARD 1*/
@@ -506,7 +509,7 @@ h2.titulo-secao-3 {
     margin-top: -40px;
 }
 
-.secao-4 .blur-azul{
+.secao-4 .blur-azul {
     position: absolute;
     top: 0;
     left: 10px;
@@ -514,7 +517,7 @@ h2.titulo-secao-3 {
     opacity: 0.6;
 }
 
-.secao-4 .blur-azul-2{
+.secao-4 .blur-azul-2 {
     position: absolute;
     top: 20%;
     left: 40%;
@@ -633,14 +636,14 @@ h2.titulo-secao-3 {
     margin-bottom: 80px;
 }
 
-.secao-5 .blur-azul{
+.secao-5 .blur-azul {
     position: absolute;
     top: -10%;
     left: -3%;
     z-index: 0;
 }
 
-.secao-5 .blur-azul-2{
+.secao-5 .blur-azul-2 {
     position: absolute;
     top: 40%;
     right: 0%;
@@ -745,25 +748,16 @@ h2.titulo-secao-3 {
     background: rgba(26, 58, 117, 0.29);
     width: 600px;
     height: 75px;
-    margin-top: 20px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.container-faq .faq-item {
-    width: 600px;
-    height: 75px;
-    padding: 18px;
+    padding: 1.125em;
+    margin-top: 1.25em;
+    border-radius: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    font-family: var(--font);
     line-height: 18px;
+    cursor: pointer;
+    font-family: var(--font);
     color: #f2f2f2;
 }
 
@@ -885,7 +879,7 @@ footer .redes a span {
     left: 25px;
 }
 
-footer .copyright{
+footer .copyright {
     background-color: #252525;
     width: 100%;
     height: 60px;
@@ -899,21 +893,25 @@ footer p {
     color: #555555;
     margin-left: 20px;
 }
+
 /*FIM DO FOOTER*/
 
 /*Smooth Scroll*/
-.auto-show{
+.auto-show {
     animation: autoShowAnimation both;
     animation-timeline: view(80% 0%);
 }
+
 /**/
 
 /*ANIMAÇÕES*/
-@keyframes autoShowAnimation{
-    from{
+@keyframes autoShowAnimation {
+    from {
         opacity: 0;
         transform: translateY(200px) scale(0.3);
-    }to{
+    }
+
+    to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
